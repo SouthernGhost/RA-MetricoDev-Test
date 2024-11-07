@@ -15,19 +15,19 @@ There are 4 models:
 
 random_forest_bin_classifier.pkl -> This model can be loaded using joblib.  
 ```python
-    model = joblib.load('random_forest_bin_classifier.pkl')
+model = joblib.load('random_forest_bin_classifier.pkl')
 ```
 
 ann_bin_classifier.pkl  
 ```python
-	model = joblib.load('ann_bin_classifier.pkl')
+model = joblib.load('ann_bin_classifier.pkl')
 ```
 
 bin_classifier.h5 -> This model is trained using tensorflow. It can be loaded using keras.  
 ```python
-	keras.models.load_models('bin_classifier.h5')
+keras.models.load_models('bin_classifier.h5')
 ```
 bin_classifier.keras 
 ```python 
-	keras.models.load_models('bin_classifier.h5')
+keras.models.load_models('bin_classifier.h5')
 ```
