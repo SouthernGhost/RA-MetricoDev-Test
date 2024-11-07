@@ -25,9 +25,9 @@ model = joblib.load('ann_bin_classifier.pkl')
 
 bin_classifier.h5 -> This model is trained using tensorflow. It can be loaded using keras.  
 ```python
-keras.models.load_models('bin_classifier.h5')
+model = keras.models.load_models('bin_classifier.h5')
 ```
 bin_classifier.keras 
 ```python 
-keras.models.load_models('bin_classifier.h5')
+model = keras.models.load_models('bin_classifier.h5')
 ```
