@@ -13,20 +13,21 @@ Confusion matrices and plots of accuracies and losses are included in the notebo
 # Loading Models
 There are 4 models:
 
-random_forest_bin_classifier.pkl -> This model can be loaded using joblib.
+random_forest_bin_classifier.pkl -> This model can be loaded using joblib.  
 	```python
-    model = joblib.load('random_forest_bin_classifier.pkl')```
+    model = joblib.load('random_forest_bin_classifier.pkl')
+    ```
 
-ann_bin_classifier.pkl
+ann_bin_classifier.pkl  
     ```python
 	model = joblib.load('ann_bin_classifier.pkl')
     ```
 
-bin_classifier.h5 -> This model is trained using tensorflow. It can be loaded using keras.
+bin_classifier.h5 -> This model is trained using tensorflow. It can be loaded using keras.  
 ```python
 	keras.models.load_models('bin_classifier.h5')
     ```
 ```python
-bin_classifier.keras
+bin_classifier.keras  
 	keras.models.load_models('bin_classifier.h5')
     ```
