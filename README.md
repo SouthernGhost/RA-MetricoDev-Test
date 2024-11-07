@@ -10,3 +10,17 @@ The dataset had 44 features in total, one being the target labels (connection se
 Model parameters were adjusted based upon initial findings from the earlier random forest classifier and to avoid overfitting, the models were trained up to 98 percent accuracy to keep them robust and flexible towards noise in data. ANN hyperparameters are listed in detail in the notebook.
 # Graphs and Plots
 Confusion matrices and plots of accuracies and losses are included in the notebook to get an idea of model performance in a quick glance.
+
+There are 4 models:
+
+random_forest_bin_classifier.pkl -> This model can be loaded using joblib.
+	model = joblib.load('random_forest_bin_classifier.pkl')
+
+ann_bin_classifier.pkl
+	model = joblib.load('ann_bin_classifier.pkl')
+
+bin_classifier.h5 -> This model is trained using tensorflow. It can be loaded using keras.
+	keras.models.load_models('bin_classifier.h5')
+
+bin_classifier.keras
+	keras.models.load_models('bin_classifier.h5')
