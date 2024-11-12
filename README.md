@@ -29,5 +29,5 @@ model = keras.models.load_models('bin_classifier.h5')
 ```
 bin_classifier.keras 
 ```python 
-model = keras.models.load_models('bin_classifier.h5')
+model = keras.models.load_models('bin_classifier.keras')
 ```
